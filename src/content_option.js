@@ -126,7 +126,7 @@ const dataportfolio = [{
     {
         img: "https://cdn-images-1.medium.com/max/1600/1*JHbrt9U3FrhqwEosXy706w.png",
         description: "Redesigning Conecta: Leading the Web & Mobile UX for Networkme’s New Experience",
-        link: "https://media.istockphoto.com/id/1411798446/vector/modern-coming-soon-under-construction-sticker-banner.jpg?s=612x612&w=0&k=20&c=KgQ9eYEfuzTdmc5ypmMYoz8JHPTbe_TjEXxyxNixKQ4=",
+        link: "https://medium.com/@marceloaf.ux/protected-work-available-upon-request-a4f83f242d06",
     },
 
 

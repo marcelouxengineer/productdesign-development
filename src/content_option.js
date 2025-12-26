@@ -17,23 +17,27 @@ const introdata = {
 
 const dataabout = {
     title: "Overview",
-    aboutme: "In my pursuit of becoming a senior product designer, I strive to merge extensive experience with a user-centric approach. Alongside my ongoing studies in software engineering, I bring strategic thinking, clear communication, and adaptability to every challenge. I navigate problem-solving with attention to detail and empathy, ensuring that design choices align with both user needs and business goals. By bridging design and development, I aim to contribute meaningfully to product success and organizational growth.",
+    aboutme: "I’m a Product Designer with over a decade of experience working across physical and digital products, focused on UX, product strategy, and complex systems. I work end to end—from discovery and research to interaction design and delivery—partnering closely with product, engineering, and stakeholders to turn complexity into clear, scalable, and meaningful experiences. My approach balances strategic thinking with hands-on execution, aligning user needs, business objectives, and technical constraints, particularly in regulated and high-stakes environments. I believe great design is intentional, inclusive, and outcome-driven—less about aesthetics, and more about creating clarity, enabling better decisions, and building products that deliver long-term value.",
 };
 const worktimeline = [{
-        jobtitle: "Motorola Mobility - Product Designer",
-        where: "Sao Paulo, Brazil",
-        date: "2022- Currently",
+        jobtitle: "Grupo SC - Freelance Staff Product Designer",
+        where: "Sao Paulo   ",
+        date: "07/2025- Currently",
     },
+
     {
-        jobtitle: "Bluma (Singu Natura) - Product Designer",
-        where: "Sao Paulo, Brazil",
-        date: "2022",
+        jobtitle: "Networkme -  Lead Product Designer",
+        where: "Sao Paulo, Lisbon, Madrid",
+        date: "08/2025 - 11/2025",
     },
+
     {
-        jobtitle: "Nullbug - Product Designer",
-        where: "Sao Paulo, Brazil",
-        date: "2021",
+        jobtitle: "Motorola Mobility - Senior Product Designer",
+        where: "Sao Paulo, Chicago, Beijing, New Delhi",
+        date: "06/2022 - 08/2025",
     },
+  
+    
 ];
 
 const skills = [{
@@ -120,8 +124,8 @@ const dataportfolio = [{
     },
 
     {
-        img: "https://miro.medium.com/v2/resize:fit:1400/1*pzdzXsx8-LnqJobbYUf-7A.jpeg",
-        description: "Music Production App – UX Case Study:Designing an Intuitive Experience for Creators, from First Beat to Final Track",
+        img: "https://cdn-images-1.medium.com/max/1600/1*JHbrt9U3FrhqwEosXy706w.png",
+        description: "Redesigning Conecta: Leading the Web & Mobile UX for Networkme’s New Experience",
         link: "https://media.istockphoto.com/id/1411798446/vector/modern-coming-soon-under-construction-sticker-banner.jpg?s=612x612&w=0&k=20&c=KgQ9eYEfuzTdmc5ypmMYoz8JHPTbe_TjEXxyxNixKQ4=",
     },
 
@@ -133,8 +137,8 @@ const dataportfolio = [{
     },
 
         {
-        img: "https://play-lh.googleusercontent.com/_L_2df91nfUKEc9VA0xNAlec5IEbb0Aj5m__AlegSreTA-jb4O6uCgvU5uxjWeY5t2w",
-        description: "Designing Intelligence: Crafting the Moto AI Experience.",
+        img: "https://cdn-images-1.medium.com/max/1600/1*szuhGda6HWmdv9zSeQ6C9Q.png",
+        description: "Building Hello UI: Designing, Managing & Scaling Motorola’s Design System",
         link: "https://medium.com/@marceloaf.ux/protected-work-available-upon-request-a4f83f242d06",
     },
     
@@ -145,7 +149,7 @@ const dataportfolio = [{
     },
     
       {
-        img: "https://play-lh.googleusercontent.com/UONxkuOPqjkXmbbGC0cRo_y5QaU6jTHNVty8lwRGdAxvTn39JH9qgDyFnJDdJDgyVo4",
+        img: "https://cdn-images-1.medium.com/max/1600/1*Gw6fF25c9tPbpFb1GjRkMw.png",
         description: "Bamunos – Discovery Phase: Uncovering User Needs to Shape a Social Experience Platform. ",
         link: "https://medium.com/@marceloaf.ux/protected-work-available-upon-request-a4f83f242d06",
     },
@@ -165,7 +169,7 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "marcelo.uxengineer@gmail.com",
+    YOUR_EMAIL: "marceloaf.ux@gmail.com",
     YOUR_FONE: "(+55) 11 99696-2160",
     description: "Whether you’re looking to collaborate, talk about product design, or discuss code, I’d love to hear from you. ",
    YOUR_SERVICE_ID: "service_kg1ebqn",
@@ -175,7 +179,7 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com/marcelouxengineer",
-       linkedin: "https://www.linkedin.com/in/marcelo-antonietto-4633b4207/",
+       linkedin: "https://www.linkedin.com/in/marcelo-antonietto-4996ba38b/",
 };
 export {
     meta,

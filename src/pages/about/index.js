@@ -95,7 +95,7 @@ export const About = () => {
                 <div className="curriculum-wrapper">
                 <h3 className="curriculum-heading">
   <a
-    href="https://drive.google.com/file/d/1lonHGSRPFy6mO6wSGXROihJm9B85m3TZ/view?usp=sharing"
+    href="https://drive.google.com/file/d/1ZMdCrDRfcNpzsb_WhcyatAn-XGNtwok5/view?usp=sharing"
     target="_blank"
     rel="noopener noreferrer"
     className="custom-underline"

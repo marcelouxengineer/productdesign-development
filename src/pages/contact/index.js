@@ -1,12 +1,16 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import * as emailjs from "emailjs-com";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { meta } from "../../content_option";
+import { meta, contactConfig } from "../../content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
-import { contactConfig } from "../../content_option";
+import { translations } from "../../translations";
+import { LanguageContext } from "../../context/LanguageContext";
 
 export const ContactUs = () => {
+  const { language } = useContext(LanguageContext);
+  const t = translations[language].contact;
+
   const [formData, setFormdata] = useState({
     email: "",
     name: "",
@@ -19,7 +23,12 @@ export const ContactUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setFormdata({ loading: true });
+
+    setFormdata((prev) => ({
+      ...prev,
+      loading: true,
+      show: false,
+    }));
 
     const templateParams = {
       from_name: formData.email,
@@ -39,20 +48,29 @@ export const ContactUs = () => {
         (result) => {
           console.log(result.text);
           setFormdata({
+            email: "",
+            name: "",
+            message: "",
             loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
+            alertmessage: t.successMessage,
             variant: "success",
             show: true,
           });
         },
         (error) => {
           console.log(error.text);
-          setFormdata({
-            alertmessage: `Faild to send!,${error.text}`,
+          setFormdata((prev) => ({
+            ...prev,
+            loading: false,
+            alertmessage: `${t.errorMessage} ${error.text}`,
             variant: "danger",
             show: true,
-          });
-          document.getElementsByClassName("co_alert")[0].scrollIntoView();
+          }));
+
+          const alertElement = document.getElementsByClassName("co_alert")[0];
+          if (alertElement) {
+            alertElement.scrollIntoView({ behavior: "smooth" });
+          }
         }
       );
   };
@@ -69,33 +87,41 @@ export const ContactUs = () => {
       <Container>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>{meta.title} | Contact</title>
+          <title>
+            {meta.title} | {t.title}
+          </title>
           <meta name="description" content={meta.description} />
         </Helmet>
+
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">Contact Me</h1>
-            <hr className="t_border my-4 ml-0 text-left" />
+            <h1 className="display-4 mb-4">{t.heading}</h1>
           </Col>
         </Row>
+
         <Row className="sec_sp">
           <Col lg="12">
             <Alert
-              //show={formData.show}
               variant={formData.variant}
               className={`rounded-0 co_alert ${
                 formData.show ? "d-block" : "d-none"
               }`}
-              onClose={() => setFormdata({ show: false })}
+              onClose={() =>
+                setFormdata((prev) => ({
+                  ...prev,
+                  show: false,
+                }))
+              }
               dismissible
             >
               <p className="my-0">{formData.alertmessage}</p>
             </Alert>
           </Col>
+
           <Col lg="5" className="mb-5">
             <h3 className="color_sec py-4"></h3>
             <address>
-              <strong>Email:</strong>{" "}
+              <strong>{t.email}:</strong>{" "}
               <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
                 {contactConfig.YOUR_EMAIL}
               </a>
@@ -103,14 +129,16 @@ export const ContactUs = () => {
               <br />
               {contactConfig.hasOwnProperty("YOUR_FONE") ? (
                 <p>
-                  <strong>Phone:</strong> {contactConfig.YOUR_FONE}
+                  <strong>{t.phone}:</strong> {contactConfig.YOUR_FONE}
                 </p>
               ) : (
                 ""
               )}
             </address>
-            <p>{contactConfig.description}</p>
+
+            <p>{t.description}</p>
           </Col>
+
           <Col lg="7" className="d-flex align-items-center">
             <form onSubmit={handleSubmit} className="contact__form w-100">
               <Row>
@@ -119,19 +147,20 @@ export const ContactUs = () => {
                     className="form-control"
                     id="name"
                     name="name"
-                    placeholder="Name"
+                    placeholder={t.namePlaceholder}
                     value={formData.name || ""}
                     type="text"
                     required
                     onChange={handleChange}
                   />
                 </Col>
+
                 <Col lg="6" className="form-group">
                   <input
                     className="form-control rounded-0"
                     id="email"
                     name="email"
-                    placeholder="Email"
+                    placeholder={t.emailPlaceholder}
                     type="email"
                     value={formData.email || ""}
                     required
@@ -139,21 +168,24 @@ export const ContactUs = () => {
                   />
                 </Col>
               </Row>
+
               <textarea
                 className="form-control rounded-0"
                 id="message"
                 name="message"
-                placeholder="Message"
+                placeholder={t.messagePlaceholder}
                 rows="5"
                 value={formData.message}
                 onChange={handleChange}
                 required
               ></textarea>
+
               <br />
+
               <Row>
                 <Col lg="12" className="form-group">
                   <button className="btn ac_btn" type="submit">
-                    {formData.loading ? "Sending..." : "Send"}
+                    {formData.loading ? t.sending : t.send}
                   </button>
                 </Col>
               </Row>
@@ -161,6 +193,7 @@ export const ContactUs = () => {
           </Col>
         </Row>
       </Container>
+
       <div className={formData.loading ? "loading-bar" : "d-none"}></div>
     </HelmetProvider>
   );

@@ -39,6 +39,14 @@
     color: var(--text-color-2);
 }
 
+/* ✅ reserva o espaço do lado esquerdo para M ou switch */
+.logo-slot {
+    min-width: 70px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+}
+
 .br-top,
 .br-bottom,
 .br-right,
@@ -165,6 +173,7 @@
     .menu__container {
         margin-left: 33.3333%;
     }
+
     .the_menu {
         padding-top: 10vh;
         padding-bottom: 10vh;

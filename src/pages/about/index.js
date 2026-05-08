@@ -110,8 +110,8 @@ export const About = () => {
                 <a
                   href={
                     language === "pt"
-                      ? "https://drive.google.com/file/d/1dE3CMFcB4TYUWq415nY8JxEGkDHwGCwC/view?usp=sharing"
-                      : "https://drive.google.com/file/d/1qMEvsUOTXcWrK35jZVVikYbwRgu6uhry/view?usp=sharing"
+                      ? "https://drive.google.com/file/d/1e3gsCSIzF7G8KyQpATiHM6091FZ4SB9e/view?usp=drive_link"
+                      : "https://drive.google.com/file/d/111UUY-Jd-6-jvPNJZWh_X7K_oWu1lmFD/view?usp=drive_link"
                   }
                   target="_blank"
                   rel="noopener noreferrer"

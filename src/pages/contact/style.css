@@ -12,8 +12,13 @@
     height: calc(2.5em + .75rem + 2px);
 }
 
+/* 👇 SEND BUTTON */
+button.btn.ac_btn {
+    color: var(--text-color);
+}
+
 button.btn.ac_btn:hover {
-    color: var(--secondary-color);
+    color: var(--text-color);
 }
 
 .loading-bar {
@@ -33,12 +38,15 @@ button.btn.ac_btn:hover {
     0% {
         transform: translateX(-100%);
     }
+
     40% {
         transform: translateX(0%);
     }
+
     60% {
         transform: translateX(0%);
     }
+
     100% {
         transform: translateX(100%);
     }

@@ -1,7 +1,7 @@
 export const translations = {
   en: {
     home: {
-      title: "Hi, I am Marcelo",
+      title: "Hi, I am Marcelo,",
       animated: {
         first: "Senior Product Designer & UX Engineer based in São Paulo, Brazil",
         second: "I design and build digital products — from strategy to production",
@@ -24,7 +24,7 @@ export const translations = {
     },
 
     portfolio: {
-      title: "Portfolio",
+      title: "Case Studies",
       viewProject: "Explore case study",
     },
 
@@ -74,12 +74,11 @@ export const translations = {
     nav: {
       home: "Início",
       about: "Sobre mim",
-      portfolio: "Portfólio",
-      contact: "Fale comigo",
+        contact: "Fale comigo",
     },
 
     portfolio: {
-      title: "Portfólio",
+      title: "Estudos de caso",
       viewProject: "Explorar estudo de caso",
     },
 

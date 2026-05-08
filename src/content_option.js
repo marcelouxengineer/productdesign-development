@@ -7,7 +7,7 @@ const meta = {
 };
 
 const introdata = {
-  title: "Hi, I’m Marcelo Antonietto",
+  title: "Hi, I’m Marcelo Antonietto Senior Product Designer & UX Engineer based in São Paulo",
   animated: {
     first: "Senior Product Designer & UX Engineer based in São Paulo, Brazil",
     second: "I design and build digital products — from strategy to production",
@@ -27,8 +27,8 @@ const dataabout = {
     pt: "Visão geral",
   },
   aboutme: {
-    en: "Senior Product Designer and UX Engineer focused on shaping digital products end to end — from discovery and research to interaction design and delivery.\n\nI combine product thinking with hands-on execution, structuring problems, defining flows, and translating ideas into scalable interfaces aligned with business goals and technical constraints.\n\nMy process integrates AI and vibe coding to accelerate exploration, prototype closer to production, and strengthen the connection between design and engineering.\n\nI focus on clarity, real-world usability, and outcomes — using research, iteration, and metrics to drive better product decisions.",
-    pt: "Senior Product Designer e UX Engineer focado em criar produtos  digitais de ponta a ponta — do discovery e research ao interaction\n design e à produção.\n\nCombino visão de produto com execução prática, estruturando problemas, definindo fluxos e transformando ideias em interfaces escaláveis, alinhadas a objetivos de negócio e \nrestrições técnicas.\n\nMeu processo integra IA e vibe coding para acelerar a exploração, prototipar mais próximo da produção e fortalecer a conexão entre design e engenharia.\n\nFoco em clareza, usabilidade no mundo real e resultados — usando pesquisa, iteração e métricas para orientar melhores decisões \nde produto.",
+    en: "Senior Product Designer and UX Engineer focused on building and scaling digital products across mobile and web — from problem definition and discovery to interface systems and delivery.\n\nI work at the intersection of product, design, and engineering, combining strategic thinking with hands-on execution to structure complex flows, align stakeholders, and turn ideas into scalable experiences.\n\nMy workflow integrates AI-assisted exploration and vibe coding to prototype closer to production, accelerate iteration cycles, and reduce the gap between design and implementation.\n\nI’m particularly interested in systems thinking, product strategy, and designing experiences that balance user needs, business goals, and technical constraints.",
+    pt: "Senior Product Designer e UX Engineer focado em construir e escalar produtos digitais para mobile e web — da definição do problema e discovery até sistemas de interface e entrega.\n\nAtuo na interseção entre produto, design e engenharia, combinando pensamento estratégico com execução prática para estruturar fluxos complexos, alinhar stakeholders e transformar ideias em experiências escaláveis.\n\nMeu workflow integra exploração assistida por IA e vibe coding para prototipar mais próximo da produção, acelerar ciclos de iteração e reduzir a distância entre design e implementação.\n\nTenho grande interesse por systems thinking, estratégia de produto e criação de experiências que equilibram necessidades do usuário, objetivos de negócio e restrições técnicas.",
   },
 };
 
@@ -40,8 +40,8 @@ const worktimeline = [
       pt: "Staff Product Designer",
     },
     date: {
-      en: "10/2025 - Currently",
-      pt: "10/2025 - Atualmente",
+      en: "10/2025 - 05/2026",
+      pt: "10/2025 - 05/2026",
     },
   },
   {
@@ -176,24 +176,36 @@ const dataportfolio = [
   {
     img: "https://cdn-images-1.medium.com/v2/resize:fit:2600/1*qbDle128fS2VI5EeXRrBrg.avif",
     description: {
-      en: "Designing iCamp: how I improved the way campers find new destinations.",
-      pt: "Designing iCamp: como melhorei a forma como campistas encontram novos destinos.",
+      en: "iCamp — When the problem isn't discovery, it's trust.",
+      pt: " iCamp — Quando o problema não é encontrar, é confiar.",
     },
     link: {
-      en: "https://www.figma.com/proto/vsZGD2ItovI2MzQ9MPp5fp/Product-Design-portfolio?node-id=769-8656&viewport=-1125%2C485%2C0.11&t=y76FgOmsiAhg7Zg5-1&scaling=min-zoom&content-scaling=fixed&page-id=308%3A5052",
-      pt: "https://www.figma.com/proto/vsZGD2ItovI2MzQ9MPp5fp/Product-Design-portfolio?node-id=775-3553&viewport=-1125%2C485%2C0.11&t=jcLr7NyJ2NrFeaFe-1&scaling=min-zoom&content-scaling=fixed&page-id=308%3A5052",
+      en: "/productdesign-development/case-studies/Icamp - Case study (ENG).pdf",
+      pt: "/productdesign-development/case-studies/Icamp - Case study (PT).pdf",
     },
   },
 
   {
     img: "https://cdn-images-1.medium.com/max/1000/1*_PdzaYVhnHb-SOPmZy0O5w.png",
     description: {
-      en: "Nintendo App — UX case study: how I helped Nintendo Switch players with in-game tips without breaking their flow.",
-      pt: "Nintendo App — estudo de caso em UX: como ajudei jogadores de Nintendo Switch com dicas no jogo, sem quebrar o fluxo.",
+      en: "Nintendo Switch — The challenge wasn’t helping. It was preserving discovery.",
+      pt: "Nintendo Switch — O desafio não era ajudar. Era preservar a descoberta.",
     },
     link: {
-      en: "https://www.figma.com/proto/vsZGD2ItovI2MzQ9MPp5fp/Product-Design-portfolio?node-id=776-3550&viewport=-2718%2C405%2C0.17&t=lTIGB7ieIHT83ILH-1&scaling=min-zoom&content-scaling=fixed&page-id=308%3A5052",
-      pt: "https://www.figma.com/proto/vsZGD2ItovI2MzQ9MPp5fp/Product-Design-portfolio?node-id=776-3550&viewport=-2718%2C405%2C0.17&t=lTIGB7ieIHT83ILH-1&scaling=min-zoom&content-scaling=fixed&page-id=308%3A5052",
+      en: "/productdesign-development/case-studies/Nintendo Switch App - Case study (ENG).pdf",
+      pt: "/productdesign-development/case-studies/Nintendo Switch App - Case study (PT).pdf",
+    },
+  },
+
+  {
+    img: "https://media.licdn.com/dms/image/v2/D4D05AQEupd1IGyeliA/videocover-high/videocover-high/0/1726164023605?e=2147483647&v=beta&t=pBcxTfg1wGhl2Kv0LInRu_-zAGSqGlmYqmK8WoR1IFo",
+    description: {
+      en: "Farmácias App — Transforming the purchase journey into conversion.",
+      pt: "Farmácias App — Transformando a jornada de compra em conversão.",
+    },
+    link: {
+      en: "https://medium.com/@marceloaf.ux/protected-work-available-upon-request-a4f83f242d06",
+      pt: "https://medium.com/@marceloaf.ux/protected-work-available-upon-request-a4f83f242d06",
     },
   },
 
@@ -210,15 +222,15 @@ const dataportfolio = [
   },
 
   {
-    img: "https://play-lh.googleusercontent.com/h2wPEuyhug1KBSDqVUsJfoelHGac1VTM_LeiLlTA22UZV5cD7nOhzMCajpMVIVDS9EM",
+    img: "https://img.utdstc.com/icon/562/e6f/562e6f438044485b5aa7c7731d15360dd0d67a2553f76d30f8395122d653f334:200",
     description: {
       en: "Moto Secure through the lens of design: evolving from version 4.0 to 5.0.",
       pt: "Moto Secure sob a ótica do design: evolução da versão 4.0 para 5.0.",
     },
-    link: {
-      en: "https://medium.com/@marceloaf.ux/protected-work-available-upon-request-a4f83f242d06",
-      pt: "https://medium.com/@marceloaf.ux/protected-work-available-upon-request-a4f83f242d06",
-    },
+link: {
+  en: "/productdesign-development/case-studies/case.pdf",
+  pt: "/productdesign-development/case-studies/case.pdf"
+}
   },
 
   {
@@ -268,14 +280,15 @@ const dataportfolio = [
       pt: "https://medium.com/@marceloaf.ux/protected-work-available-upon-request-a4f83f242d06",
     },
   },
+  
 ];
 
 const contactConfig = {
   YOUR_EMAIL: "marceloaf.ux@gmail.com",
   YOUR_FONE: "(+55) 11 99696-2160",
-  YOUR_SERVICE_ID: "service_kg1ebqn",
-  YOUR_TEMPLATE_ID: "template_dpuvaqe",
-  YOUR_USER_ID: "X7APOxdw8N86s6wkH",
+  YOUR_SERVICE_ID: "service_r6kzppk",
+  YOUR_TEMPLATE_ID: "template_b3kvqzp",
+  YOUR_USER_ID: "UNzRrf83UkENzW28c",
 };
 
 const socialprofils = {

@@ -2,9 +2,10 @@ import React, { useContext } from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import { dataportfolio, meta } from "../../content_option";
+import { meta } from "../../content_option";
 import { translations } from "../../translations";
 import { LanguageContext } from "../../context/LanguageContext";
+import { PortfolioSection } from "../../components/PortfolioSection";
 
 export const Portfolio = () => {
   const { language } = useContext(LanguageContext);
@@ -25,27 +26,7 @@ export const Portfolio = () => {
           </Col>
         </Row>
 
-        <div className="mb-5 po_items_ho">
-          {dataportfolio.map((data, i) => {
-            return (
-              <div key={i} className="po_item">
-                <img className="portfolio-img" src={data.img} alt="Project" />
-
-                <div className="content">
-                  <p>{data.description[language]}</p>
-
-                  <a
-                    href={data.link[language]}  // ✅ AQUI ESTÁ O AJUSTE FINAL
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {t.viewProject}
-                  </a>
-                </div>
-              </div>
-            );
-          })}
-        </div>
+        <PortfolioSection />
       </Container>
     </HelmetProvider>
   );

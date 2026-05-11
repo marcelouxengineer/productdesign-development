@@ -8,9 +8,11 @@ import { translations } from "../translations";
 import { LanguageContext } from "../context/LanguageContext";
 
 const Headermain = () => {
-  const [isActive, setActive] = useState("false");
+  const [isActive, setActive] = useState(false);
+
   const { language } = useContext(LanguageContext);
   const t = translations[language].nav;
+
   const location = useLocation();
 
   const handleToggle = () => {
@@ -23,7 +25,10 @@ const Headermain = () => {
   return (
     <>
       <header className="fixed-top site__header">
+
         <div className="d-flex align-items-center justify-content-between">
+
+          {/* LEFT */}
           <div className="logo-slot">
             {isHome ? (
               <Themetoggle />
@@ -34,26 +39,68 @@ const Headermain = () => {
             )}
           </div>
 
-          <div className="d-flex align-items-center">
-            {!isHome && <Themetoggle />}
-            <button className="menu__button nav_ac" onClick={handleToggle}>
-              {!isActive ? <VscClose /> : <VscGrabber />}
-            </button>
-          </div>
+          {/* DESKTOP NAV */}
+          <nav className="desktop_nav">
+
+            <Link
+              className={`desktop_nav_link ${
+                location.pathname === "/" ? "active_nav" : ""
+              }`}
+              to="/"
+            >
+              {t.home}
+            </Link>
+
+            <Link
+              className={`desktop_nav_link ${
+                location.pathname === "/about" ? "active_nav" : ""
+              }`}
+              to="/about"
+            >
+              {t.about}
+            </Link>
+
+            <Link
+              className={`desktop_nav_link ${
+                location.pathname === "/contact" ? "active_nav" : ""
+              }`}
+              to="/contact"
+            >
+              {t.contact}
+            </Link>
+
+          </nav>
+
+      {/* MOBILE */}
+<div className="mobile_actions d-flex align-items-center">
+
+  <button
+    className="menu__button nav_ac"
+    onClick={handleToggle}
+  >
+    {!isActive ? <VscGrabber /> : <VscClose />}
+  </button>
+
+</div>
+
         </div>
 
-        <div className={`site__navigation ${!isActive ? "menu__opend" : ""}`}>
+        {/* MOBILE MENU */}
+        <div className={`site__navigation ${isActive ? "menu__opend" : ""}`}>
+
           <div className="bg__menu h-100">
+
             <div className="menu__wrapper">
+
               <div className="menu__container p-3">
+
                 <ul className="the_menu">
+
                   <li className="menu_item">
                     <Link onClick={handleToggle} to="/" className="my-3">
                       {t.home}
                     </Link>
                   </li>
-
-                 
 
                   <li className="menu_item">
                     <Link onClick={handleToggle} to="/about" className="my-3">
@@ -66,15 +113,21 @@ const Headermain = () => {
                       {t.contact}
                     </Link>
                   </li>
+
                 </ul>
+
               </div>
+
             </div>
+
           </div>
 
           <div className="menu_footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 p-3">
             <div className="d-flex"></div>
           </div>
+
         </div>
+
       </header>
 
       <div className="br-top"></div>

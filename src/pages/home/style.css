@@ -21,12 +21,19 @@ section {
 .intro_sec .text,
 .intro_sec .h_bg-image {
     width: 50%;
+
+    transform: translateY(-40px);
 }
 
 .intro_sec .intro {
     max-width: 520px;
     margin: 0 auto;
-    transform: translateX(-5px);
+}
+
+/* HERO CONTENT */
+.hero_content {
+    position: relative;
+    top: 54px;
 }
 
 /* 👇 HI I'M MARCELO */
@@ -50,7 +57,7 @@ section {
 .hero-location {
     font-size: 16px;
     font-weight: 600;
-    opacity: 0.82;
+    opacity: 0.5;
     margin-bottom: 16px;
     line-height: 1.3;
 }
@@ -89,7 +96,7 @@ section {
 /* PORTFÓLIO */
 .portfolio-section {
     position: relative;
-    top: -65px;
+    top: -80px;
 
     max-width: 1180px;
     margin: 0 auto;
@@ -147,21 +154,69 @@ section {
     width: 320px;
 }
 
+/* 👇 CARD CONTENT */
+.content {
+    position: relative;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    height: 100%;
+
+    padding-bottom: 90px;
+}
+
+/* 👇 DISCLAIMER */
+.portfolio_disclaimer {
+    position: absolute;
+
+    bottom: 26px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 82%;
+
+    font-size: 12px !important;
+
+    line-height: 1.55;
+
+    opacity: 0.58;
+
+    text-align: center;
+}
+
 /* 👇 MOBILE */
 @media (max-width:991px) {
 
-    .intro_sec {
-        display: flex !important;
-        flex-direction: column;
+  .intro_sec {
+    display: flex !important;
+    flex-direction: column;
 
-        height: auto !important;
-        margin-top: 0;
-        padding: 0 24px 40px;
-    }
+    height: auto !important;
+
+    margin-top: -70px;
+
+    padding: 0 24px 40px;
+
+    row-gap: 50px;
+}
 
     .intro_sec .text,
     .intro_sec .h_bg-image {
+        
         width: 100%;
+
+        transform: none;
+        
     }
 
     /* TEXTO PRIMEIRO */
@@ -196,6 +251,10 @@ section {
     .po_item {
         width: 100%;
     }
+
+    .hero_content {
+        transform: none;
+    }
 }
 
 /* LANGUAGE */
@@ -229,4 +288,93 @@ section {
 
 .scroll-indicator {
     display: none;
+}
+
+/* IMPACT BAR */
+.impact_bar {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: flex-start;
+
+    gap: 28px;
+
+    width: 100%;
+
+    margin-top: 75px;
+
+    padding-top: 18px;
+
+    margin-left: -5px;
+
+    flex-wrap: nowrap;
+
+    position: relative;
+
+    top: 44px;
+}
+
+.impact_item {
+    font-size: 14px;
+
+    color: var(--text-color);
+
+    opacity: 0.92;
+
+    line-height: 1.4;
+
+    font-weight: 500;
+
+    white-space: nowrap;
+
+    flex-shrink: 0;
+}
+
+.impact_divider {
+    width: 1px;
+
+    height: 18px;
+
+    background: rgba(0, 0, 0, 0.12);
+
+    flex-shrink: 0;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+    .impact_bar {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 5px;
+
+        margin-top: 28px;
+
+        margin-left: 0;
+
+        position: relative;
+
+        top: 30px;
+    }
+
+    .impact_divider {
+        display: none;
+    }
+
+    .impact_item {
+        font-size: 13px;
+
+        white-space: normal;
+    }
+
+    /* 👇 FIX OPEN TO REMOTE WORK */
+    .hero-location {
+        max-width: 360px;
+
+        line-height: 1.45;
+    }
+
 }

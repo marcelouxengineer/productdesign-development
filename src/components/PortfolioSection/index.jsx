@@ -43,17 +43,12 @@ export const PortfolioSection = () => {
             {t.title}
           </h2>
 
-          <p className="portfolio-note">
-            {language === "en"
-              ? "Some corporate case studies are protected due to confidentiality agreements. Please contact marceloaf.ux@gmail.com for access."
-              : "Alguns estudos de caso corporativos são protegidos por acordos de confidencialidade. Solicite acesso em marceloaf.ux@gmail.com."}
-          </p>
-
         </div>
 
       </div>
 
       <div className="po_items_ho">
+
         {dataportfolio.map((data, i) => {
 
           const descriptionValue =
@@ -91,11 +86,21 @@ export const PortfolioSection = () => {
                   {t.viewProject}
                 </a>
 
+                {/* 👇 PASSWORD DISCLAIMER */}
+                {!isPublic && (
+                  <span className="portfolio_disclaimer">
+                    {language === "en"
+                      ? "This case study is password protected due to confidentiality agreements. Please contact marceloaf.ux@gmail.com to request access."
+                      : "Este estudo de caso é protegido por senha devido a acordos de confidencialidade. Entre em contato em marceloaf.ux@gmail.com para solicitar acesso."}
+                  </span>
+                )}
+
               </div>
 
             </div>
           );
         })}
+
       </div>
 
     </section>

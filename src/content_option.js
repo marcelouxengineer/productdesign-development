@@ -10,11 +10,7 @@ const introdata = {
   title: "Hi, I’m Marcelo Antonietto Senior Product Designer & UX Engineer based in São Paulo",
   animated: {
     first: "Senior Product Designer & UX Engineer based in São Paulo, Brazil",
-    second: "I design and build digital products — from strategy to production",
-    third: "I turn user insight into product decisions",
-    forth: "I design scalable systems that ship across teams",
-    fifth: "I prototype ideas in code — accelerated by AI",
-    sixth: "I focus on adoption, usability, and real product outcomes",
+   
   },
   description:
     "From research to real product — not just screens, \nbut working solutions through vibe coding",

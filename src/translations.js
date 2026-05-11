@@ -3,7 +3,7 @@ export const translations = {
     home: {
       title: "Hi, I am Marcelo,",
       animated: {
-        first: "Senior Product Designer & UX Engineer based in São Paulo, Brazil",
+        first: "Senior Product s & UX Engineer based in São Paulo, Brazi",
         second: "I design and build digital products — from strategy to production",
         third: "I turn user insight into product decisions",
         forth: "I design scalable systems that ship across teams",

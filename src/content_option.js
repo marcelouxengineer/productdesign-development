@@ -245,7 +245,7 @@ link: {
     img: "https://p1-ofp.static.pub//fes/cms/2023/09/28/rndhahba7lfyygv8djkjnuqcqzpq25162673.png",
     description: {
       en: "Motorola ThinkPhone — Red Key Experience: a UX case study of a hardware-driven feature.",
-      pt: "Motorola ThinkPhone — Red Key Experience: estudo de UX de uma funcionalidade orientada por hardware.",
+      pt: "Motorola ThinkPhone — Red Key: UX para funcionalidade acionada por hardware.",
     },
     link: {
       en: "https://medium.com/@marceloaf.ux/protected-work-available-upon-request-a4f83f242d06",
@@ -257,7 +257,7 @@ link: {
     img: "https://cdn-images-1.medium.com/max/1600/1*Gw6fF25c9tPbpFb1GjRkMw.png",
     description: {
       en: "Bamunos — discovery: how I identified user needs to shape the platform.",
-      pt: "Bamunos — discovery: como identifiquei necessidades dos usuários para orientar a plataforma.",
+      pt: "Bamunos — como o discovery orientou a direção da plataforma.",
     },
     link: {
       en: "https://medium.com/@marceloaf.ux/protected-work-available-upon-request-a4f83f242d06",
@@ -269,7 +269,7 @@ link: {
     img: "https://cdn-images-1.medium.com/max/800/1*Fk5z5TIEduymaZ3GDcUfEQ.jpeg",
     description: {
       en: "Singu App — heuristic evaluation: identifying usability issues to improve the experience.",
-      pt: "Singu App — avaliação heurística: identificando problemas de usabilidade para evoluir a experiência.",
+      pt: "Singu App — avaliação heurística para identificar gaps de usabilidade.",
     },
     link: {
       en: "https://medium.com/@marceloaf.ux/protected-work-available-upon-request-a4f83f242d06",

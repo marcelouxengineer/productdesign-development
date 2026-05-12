@@ -91,7 +91,7 @@ export const PortfolioSection = () => {
                   <span className="portfolio_disclaimer">
                     {language === "en"
                       ? "This case study is password protected due to confidentiality agreements. Please contact marceloaf.ux@gmail.com to request access."
-                      : "Este estudo de caso é protegido por senha devido a acordos de confidencialidade. Entre em contato em marceloaf.ux@gmail.com para solicitar acesso."}
+                      : "Estudo de caso é protegido devido a confidencialidade. Contate marceloaf.ux@gmail.com para solicitar acesso."}
                   </span>
                 )}
 

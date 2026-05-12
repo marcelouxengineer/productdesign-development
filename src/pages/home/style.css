@@ -378,3 +378,121 @@ section {
     }
 
 }
+
+/* 👇 TABLET / LAPTOP ZOOM FIX */
+@media (max-width: 1100px) and (min-width: 769px) {
+
+    /* 👇 KEEP HAMBURGER MENU */
+    .nav_ac {
+        display: flex !important;
+
+        align-items: center !important;
+
+        justify-content: flex-end !important;
+
+        margin-left: auto !important;
+
+        width: auto !important;
+
+        position: relative !important;
+
+        right: 0 !important;
+
+        left: auto !important;
+    }
+
+    /* 👇 FORCE HAMBURGER ICON */
+    .bars {
+        display: block !important;
+
+        opacity: 1 !important;
+
+        visibility: visible !important;
+    }
+
+    /* 👇 HIDE DESKTOP MENU */
+    .menu__wrapper {
+        display: none !important;
+    }
+
+    .intro_sec {
+        display: flex !important;
+
+        flex-direction: column;
+
+        height: auto !important;
+
+        min-height: auto !important;
+
+        padding: 40px 40px 80px;
+
+        row-gap: 60px;
+    }
+
+    .intro_sec .text,
+    .intro_sec .h_bg-image {
+        width: 100% !important;
+
+        transform: none !important;
+    }
+
+    .intro_sec .text {
+        order: 1;
+    }
+
+    /* 👇 BIGGER IMAGE */
+    .intro_sec .h_bg-image {
+        order: 2;
+
+        width: 100% !important;
+
+        height: 640px !important;
+
+        background-size: 62% !important;
+
+        background-position: center top !important;
+
+        background-repeat: no-repeat;
+
+        margin-top: -90px;
+
+        margin-bottom: -120px;
+    }
+
+    .hero_content {
+        top: 0 !important;
+    }
+
+    /* 👇 STACK IMPACT ITEMS */
+    .impact_bar {
+        display: flex !important;
+
+        flex-direction: column !important;
+
+        align-items: flex-start !important;
+
+        gap: 16px !important;
+
+        margin-top: 52px !important;
+
+        top: 0 !important;
+
+        overflow: visible !important;
+    }
+
+    .impact_item {
+        white-space: normal !important;
+
+        flex-shrink: 1 !important;
+    }
+
+    .impact_divider {
+        display: none !important;
+    }
+
+    .portfolio-section {
+        top: 0 !important;
+
+        padding: 0 40px;
+    }
+}

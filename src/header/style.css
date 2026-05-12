@@ -442,7 +442,9 @@
 
     /* MOVE SOMENTE O HAMBURGER */
     .menu__button {
-        transform: translateX(220px);
+        transform: translateX(0px);
+
+    margin-left: auto;
     }
 
 }

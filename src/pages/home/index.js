@@ -105,8 +105,8 @@ export const Home = () => {
 
                     <div className="impact_item">
                       {language === "en"
-                        ? "5M+ devices/year · Motorola"
-                        : "5M+ devices/ano · Motorola"}
+                        ? "+41% task completion · first session"
+                        : "+41% de tarefas completas na 1ª sessão"}
                     </div>
 
                     <div className="impact_divider"></div>
@@ -114,7 +114,7 @@ export const Home = () => {
                     <div className="impact_item">
                       {language === "en"
                         ? "Design system · 100% ecosystem coverage"
-                        : "Design system · 100% do ecossistema"}
+                        : "Design system  · 100% do ecossistema"}
                     </div>
 
                     <div className="impact_divider"></div>
@@ -130,7 +130,7 @@ export const Home = () => {
                     <div className="impact_item">
                       {language === "en"
                         ? "Front-end dev · Vibe coding · AI-native"
-                        : "Front-end dev · Vibe coding · IA-native"}
+                        : "Front-end dev/Vibe coding/IA-native"}
                     </div>
 
                   </div>

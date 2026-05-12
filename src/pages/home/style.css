@@ -298,15 +298,15 @@ section {
 
     justify-content: flex-start;
 
-    gap: 28px;
+    gap: 11px;
 
     width: 100%;
 
     margin-top: 75px;
 
-    padding-top: 18px;
+    padding-top: 0px;
 
-    margin-left: -5px;
+    margin-left: 5px;
 
     flex-wrap: nowrap;
 

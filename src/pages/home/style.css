@@ -33,7 +33,7 @@ section {
 /* HERO CONTENT */
 .hero_content {
     position: relative;
-    top: 54px;
+    top: 40px;
 }
 
 /* 👇 HI I'M MARCELO */
@@ -254,6 +254,7 @@ section {
 
     .hero_content {
         transform: none;
+            top: 60px;
     }
 }
 
@@ -302,7 +303,7 @@ section {
 
     width: 100%;
 
-    margin-top: 75px;
+    margin-top: 60px;
 
     padding-top: 0px;
 
@@ -496,3 +497,4 @@ section {
         padding: 0 40px;
     }
 }
+

@@ -37,17 +37,61 @@ export const PortfolioSection = () => {
 
       <div className="portfolio-title-wrapper">
 
-        <div className="portfolio-title-content">
+        <div
+          className="portfolio-header"
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "baseline",
+            width: "100%",
+            marginBottom: "40px",
+            gap: "20px",
+            flexWrap: "wrap",
+          }}
+        >
 
-          <h2 className="portfolio-title">
+          <h2
+            className="portfolio-title"
+            style={{
+              margin: 0,
+                                left: "-1px",
+
+            }}
+          >
             {t.title}
+          </h2>
+
+          <h2
+            className="portfolio-title"
+            style={{
+              margin: 0,
+              position: "relative",
+                  left: "-1px",
+              top: "0px",
+              cursor: "pointer",
+            }}
+            onClick={() =>
+              window.open(
+                language === "pt"
+                  ? "https://drive.google.com/file/d/1e3gsCSIzF7G8KyQpATiHM6091FZ4SB9e/view?usp=drive_link"
+                  : "https://drive.google.com/file/d/111UUY-Jd-6-jvPNJZWh_X7K_oWu1lmFD/view?usp=drive_link",
+                "_blank"
+              )
+            }
+          >
+            {t.curriculum}
           </h2>
 
         </div>
 
       </div>
 
-      <div className="po_items_ho">
+  <div
+  className="po_items_ho"
+  style={{
+    marginTop: "-40px",
+  }}
+>
 
         {dataportfolio.map((data, i) => {
 
@@ -55,6 +99,9 @@ export const PortfolioSection = () => {
             data.description?.en?.toLowerCase() || "";
 
           const isPublic =
+            data.id === "moto-secure" ||
+            data.id === "moto-hello" ||
+            data.id === "networkme" ||
             descriptionValue.includes("nintendo") ||
             descriptionValue.includes("icamp");
 
@@ -86,7 +133,6 @@ export const PortfolioSection = () => {
                   {t.viewProject}
                 </a>
 
-                {/* 👇 PASSWORD DISCLAIMER */}
                 {!isPublic && (
                   <span className="portfolio_disclaimer">
                     {language === "en"

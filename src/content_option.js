@@ -169,6 +169,46 @@ const services = [
 ];
 
 const dataportfolio = [
+
+ {
+    id: "moto-secure",
+    img: "/productdesign-development/img/motosecure.png",
+    description: {
+      en: "Moto Secure — Reframing security adoption: the problem wasn't complexity — it was reversibility.",
+      pt: "Moto Secure — Reenquadrando a adoção de segurança: o problema não era complexidade — era reversibilidade.",
+    },
+link: {
+  en: "/productdesign-development/case-studies/Moto Secure - Case Study (ENG).pdf",
+  pt: "/productdesign-development/case-studies/Moto Secure - Case Study (PT).pdf"
+}
+  },
+
+      {
+        id: "networkme",
+    img: "https://cdn-images-1.medium.com/max/1600/1*JHbrt9U3FrhqwEosXy706w.png",
+    description: {
+      en: "Networkme Conecta— Reframing a product from visual refresh to activation-first experience.",
+      pt: "Networkme Conecta — Reposicionando o produto de refresh visual para experiência orientada à ativação",
+    },
+    link: {
+      en: "/productdesign-development/case-studies/Networkme Conecta - Case study (ENG).pdf",
+      pt: "/productdesign-development/case-studies/Networkme Conecta - Case study (ENG).pdf",
+    },
+  },
+
+      {
+     id: "moto-hello",
+    img: "/productdesign-development/img/cover.png",
+    description: {
+      en: "Hello UI — I created, managed, and documented Motorola's design system.",
+      pt: "Hello UI — Criei, gerenciei e documentei o design system da Motorola.",
+    },
+    link: {
+      en: "https://www.figma.com/proto/nusY8iPR6e5nv04RCN2Y6A/Hello-Design-System---Guidelines?node-id=68-25610&viewport=410%2C149%2C0.16&t=dDbF6hZwLnQxeMor-1&scaling=contain&content-scaling=fixed&starting-point-node-id=68%3A25610&page-id=68%3A25609",
+      pt: "https://www.figma.com/proto/nusY8iPR6e5nv04RCN2Y6A/Hello-Design-System---Guidelines?node-id=68-25610&viewport=410%2C149%2C0.16&t=dDbF6hZwLnQxeMor-1&scaling=contain&content-scaling=fixed&starting-point-node-id=68%3A25610&page-id=68%3A25609",
+    },
+  },
+
   {
     img: "https://cdn-images-1.medium.com/v2/resize:fit:2600/1*qbDle128fS2VI5EeXRrBrg.avif",
     description: {
@@ -193,6 +233,10 @@ const dataportfolio = [
     },
   },
 
+
+
+
+
   {
     img: "https://media.licdn.com/dms/image/v2/D4D05AQEupd1IGyeliA/videocover-high/videocover-high/0/1726164023605?e=2147483647&v=beta&t=pBcxTfg1wGhl2Kv0LInRu_-zAGSqGlmYqmK8WoR1IFo",
     description: {
@@ -205,41 +249,9 @@ const dataportfolio = [
     },
   },
 
-  {
-    img: "https://cdn-images-1.medium.com/max/1600/1*JHbrt9U3FrhqwEosXy706w.png",
-    description: {
-      en: "Redesigning Conecta: leading the web and mobile UX for Networkme’s new experience.",
-      pt: "Redesigning Conecta: liderando a UX web e mobile da nova experiência da Networkme.",
-    },
-    link: {
-      en: "https://medium.com/@marceloaf.ux/protected-work-available-upon-request-a4f83f242d06",
-      pt: "https://medium.com/@marceloaf.ux/protected-work-available-upon-request-a4f83f242d06",
-    },
-  },
 
-  {
-    img: "https://img.utdstc.com/icon/562/e6f/562e6f438044485b5aa7c7731d15360dd0d67a2553f76d30f8395122d653f334:200",
-    description: {
-      en: "Moto Secure through the lens of design: evolving from version 4.0 to 5.0.",
-      pt: "Moto Secure sob a ótica do design: evolução da versão 4.0 para 5.0.",
-    },
-link: {
-  en: "/productdesign-development/case-studies/case.pdf",
-  pt: "/productdesign-development/case-studies/case.pdf"
-}
-  },
 
-  {
-    img: "https://cdn-images-1.medium.com/max/1600/1*szuhGda6HWmdv9zSeQ6C9Q.png",
-    description: {
-      en: "Building Hello UI: creating, managing, and scaling Motorola’s design system.",
-      pt: "Building Hello UI: criação, gestão e escala do design system da Motorola.",
-    },
-    link: {
-      en: "https://medium.com/@marceloaf.ux/protected-work-available-upon-request-a4f83f242d06",
-      pt: "https://medium.com/@marceloaf.ux/protected-work-available-upon-request-a4f83f242d06",
-    },
-  },
+ 
 
   {
     img: "https://p1-ofp.static.pub//fes/cms/2023/09/28/rndhahba7lfyygv8djkjnuqcqzpq25162673.png",
@@ -253,29 +265,6 @@ link: {
     },
   },
 
-  {
-    img: "https://cdn-images-1.medium.com/max/1600/1*Gw6fF25c9tPbpFb1GjRkMw.png",
-    description: {
-      en: "Bamunos — discovery: how I identified user needs to shape the platform.",
-      pt: "Bamunos — como o discovery orientou a direção da plataforma.",
-    },
-    link: {
-      en: "https://medium.com/@marceloaf.ux/protected-work-available-upon-request-a4f83f242d06",
-      pt: "https://medium.com/@marceloaf.ux/protected-work-available-upon-request-a4f83f242d06",
-    },
-  },
-
-  {
-    img: "https://cdn-images-1.medium.com/max/800/1*Fk5z5TIEduymaZ3GDcUfEQ.jpeg",
-    description: {
-      en: "Singu App — heuristic evaluation: identifying usability issues to improve the experience.",
-      pt: "Singu App — avaliação heurística para identificar gaps de usabilidade.",
-    },
-    link: {
-      en: "https://medium.com/@marceloaf.ux/protected-work-available-upon-request-a4f83f242d06",
-      pt: "https://medium.com/@marceloaf.ux/protected-work-available-upon-request-a4f83f242d06",
-    },
-  },
   
 ];
 

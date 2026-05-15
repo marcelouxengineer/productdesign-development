@@ -94,6 +94,7 @@ export const About = () => {
           <Col lg="5">
             <h3 className="color_sec py-4">{t.education}</h3>
           </Col>
+
           <Col lg="7">
             {services.map((data, i) => {
               return (
@@ -103,24 +104,6 @@ export const About = () => {
                 </div>
               );
             })}
-
-            {/* ✅ CV dinâmico por idioma */}
-            <div className="curriculum-wrapper">
-              <h3 className="curriculum-heading">
-                <a
-                  href={
-                    language === "pt"
-                      ? "https://drive.google.com/file/d/1e3gsCSIzF7G8KyQpATiHM6091FZ4SB9e/view?usp=drive_link"
-                      : "https://drive.google.com/file/d/111UUY-Jd-6-jvPNJZWh_X7K_oWu1lmFD/view?usp=drive_link"
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="custom-underline"
-                >
-                  {t.curriculum}
-                </a>
-              </h3>
-            </div>
           </Col>
         </Row>
       </Container>

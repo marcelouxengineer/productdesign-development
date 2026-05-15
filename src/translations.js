@@ -26,6 +26,7 @@ export const translations = {
     portfolio: {
       title: "Case Studies",
       viewProject: "Explore case study",
+      curriculum: "Curriculum",
     },
 
     about: {
@@ -74,12 +75,13 @@ export const translations = {
     nav: {
       home: "Início",
       about: "Sobre mim",
-        contact: "Fale comigo",
+      contact: "Fale comigo",
     },
 
     portfolio: {
       title: "Estudos de caso",
       viewProject: "Explorar estudo de caso",
+      curriculum: "Currículo",
     },
 
     about: {

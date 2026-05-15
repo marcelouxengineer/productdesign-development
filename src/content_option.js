@@ -198,7 +198,7 @@ link: {
 
       {
      id: "moto-hello",
-    img: "/productdesign-development/img/cover.png",
+    img: "/productdesign-development/img/helloui.png",
     description: {
       en: "Hello UI — I created, managed, and documented Motorola's design system.",
       pt: "Hello UI — Criei, gerenciei e documentei o design system da Motorola.",

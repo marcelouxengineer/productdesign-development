@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/productdesign-development/static/css/main.0acc2931.css",
-    "main.js": "/productdesign-development/static/js/main.e27a0bb8.js",
+    "main.js": "/productdesign-development/static/js/main.a1d2259b.js",
     "static/media/me.png": "/productdesign-development/static/media/me.b363d11aa6c8dfc0c9cc.png",
     "index.html": "/productdesign-development/index.html"
   },
   "entrypoints": [
     "static/css/main.0acc2931.css",
-    "static/js/main.e27a0bb8.js"
+    "static/js/main.a1d2259b.js"
   ]
 }

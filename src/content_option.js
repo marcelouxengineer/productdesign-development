@@ -3,13 +3,13 @@ const logotext = "M";
 const meta = {
   title: "Marcelo Antonietto",
   description:
-    "I’m Marcelo Antonietto — Senior Product Designer & UX Engineer based in São Paulo, Brazil",
+    "I’m Marcelo Antonietto — Product Designer & UX Engineer based in São Paulo, Brazil",
 };
 
 const introdata = {
-  title: "Hi, I’m Marcelo Antonietto Senior Product Designer & UX Engineer based in São Paulo",
+  title: "Hi, I’m Marcelo Antonietto Product Designer & UX Engineer based in São Paulo",
   animated: {
-    first: "Senior Product Designer & UX Engineer based in São Paulo, Brazil",
+    first: "Product Designer & UX Engineer based in São Paulo, Brazil",
    
   },
   description:
@@ -23,8 +23,8 @@ const dataabout = {
     pt: "Visão geral",
   },
   aboutme: {
-    en: "Senior Product Designer and UX Engineer focused on building and scaling digital products across mobile and web — from problem definition and discovery to interface systems and delivery.\n\nI work at the intersection of product, design, and engineering, combining strategic thinking with hands-on execution to structure complex flows, align stakeholders, and turn ideas into scalable experiences.\n\nMy workflow integrates AI-assisted exploration and vibe coding to prototype closer to production, accelerate iteration cycles, and reduce the gap between design and implementation.\n\nI’m particularly interested in systems thinking, product strategy, and designing experiences that balance user needs, business goals, and technical constraints.",
-    pt: "Senior Product Designer e UX Engineer focado em construir e escalar produtos digitais para mobile e web — da definição do problema e discovery até sistemas de interface e entrega.\n\nAtuo na interseção entre produto, design e engenharia, combinando pensamento estratégico com execução prática para estruturar fluxos complexos, alinhar stakeholders e transformar ideias em experiências escaláveis.\n\nMeu workflow integra exploração assistida por IA e vibe coding para prototipar mais próximo da produção, acelerar ciclos de iteração e reduzir a distância entre design e implementação.\n\nTenho grande interesse por systems thinking, estratégia de produto e criação de experiências que equilibram necessidades do usuário, objetivos de negócio e restrições técnicas.",
+    en: "Product Designer and UX Engineer focused on building and scaling digital products for mobile and web — from problem definition and discovery to interface systems and delivery.\n\nI work at the intersection of product, design, and engineering, combining strategic thinking with hands-on execution to structure complex flows, align stakeholders, and turn ideas into scalable experiences.\n\nMy workflow integrates AI-assisted exploration and prototyping in code to validate concepts closer to production, accelerate iteration cycles, and reduce the gap between design and implementation.\n\nI have a strong interest in systems thinking, product strategy, and crafting experiences that balance user needs, business goals, and technical constraints.",
+    pt: "Product Designer e UX Engineer focado em construir e escalar produtos digitais para mobile e web — da definição do problema e discovery até sistemas de interface e entrega.\n\nAtuo na interseção entre produto, design e engenharia, combinando pensamento estratégico com execução prática para estruturar fluxos complexos, alinhar stakeholders e transformar ideias em experiências escaláveis.\n\nMeu workflow integra exploração assistida por IA e prototipação em código para validar conceitos mais próximos da produção, acelerar ciclos de iteração e reduzir a distância entre design e implementação.\n\nTenho grande interesse por systems thinking, estratégia de produto e criação de experiências que equilibram necessidades do usuário, objetivos de negócio e restrições técnicas.",
   },
 };
 
@@ -32,8 +32,8 @@ const worktimeline = [
   {
     jobtitle: "Grupo SC",
     where: {
-      en: "Staff Product Designer",
-      pt: "Staff Product Designer",
+      en: "Senior Product Designer",
+      pt: "Senior Product Designer",
     },
     date: {
       en: "10/2025 - 05/2026",

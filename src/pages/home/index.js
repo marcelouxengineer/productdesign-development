@@ -31,7 +31,7 @@ export const Home = () => {
 
               <div className="align-self-center">
 
-                <div className="intro mx-auto">
+                <div className="intro">
 
                   {/* HERO CONTENT */}
                   <div className="hero_content">
@@ -41,20 +41,20 @@ export const Home = () => {
 
                       <button
                         type="button"
-                        onClick={() => changeLanguage("en")}
-                        className={language === "en" ? "active" : ""}
+                        onClick={() => changeLanguage("pt")}
+                        className={language === "pt" ? "active" : ""}
                       >
-                        EN
+                        PT
                       </button>
 
                       <span>/</span>
 
                       <button
                         type="button"
-                        onClick={() => changeLanguage("pt")}
-                        className={language === "pt" ? "active" : ""}
+                        onClick={() => changeLanguage("en")}
+                        className={language === "en" ? "active" : ""}
                       >
-                        PT
+                        EN
                       </button>
 
                     </div>
@@ -68,7 +68,7 @@ export const Home = () => {
 
                     {/* HEADLINE */}
                     <h1 className="hero-headline">
-                      Senior Product Designer & UX Engineer
+                      Product Designer & UX Engineer
                     </h1>
 
                     {/* LOCATION */}
@@ -114,7 +114,7 @@ export const Home = () => {
                     <div className="impact_item">
                       {language === "en"
                         ? "Design system · 100% ecosystem coverage"
-                        : "Design system  · 100% do ecossistema"}
+                        : "Design system · 100% do ecossistema"}
                     </div>
 
                     <div className="impact_divider"></div>

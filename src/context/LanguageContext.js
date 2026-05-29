@@ -3,10 +3,12 @@ import React, { createContext, useEffect, useState } from "react";
 export const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-  const [language, setLanguage] = useState("en");
+  // 👇 Português como idioma padrão
+  const [language, setLanguage] = useState("pt");
 
   useEffect(() => {
     const savedLanguage = localStorage.getItem("language");
+
     if (savedLanguage) {
       setLanguage(savedLanguage);
     }
@@ -18,7 +20,12 @@ export const LanguageProvider = ({ children }) => {
   };
 
   return (
-    <LanguageContext.Provider value={{ language, changeLanguage }}>
+    <LanguageContext.Provider
+      value={{
+        language,
+        changeLanguage,
+      }}
+    >
       {children}
     </LanguageContext.Provider>
   );

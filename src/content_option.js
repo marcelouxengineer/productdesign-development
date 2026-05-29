@@ -47,8 +47,8 @@ const worktimeline = [
       pt: "Global Senior Product Designer",
     },
     date: {
-      en: "08/2025 - 12/2025",
-      pt: "08/2025 - 12/2025",
+      en: "07/2025 - 10/2025",
+      pt: "07/2025 - 10/2025",
     },
   },
   {

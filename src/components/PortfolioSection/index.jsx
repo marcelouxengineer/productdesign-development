@@ -102,6 +102,7 @@ export const PortfolioSection = () => {
             data.id === "moto-secure" ||
             data.id === "moto-hello" ||
             data.id === "networkme" ||
+            data.id === "redkey" ||
             descriptionValue.includes("nintendo") ||
             descriptionValue.includes("icamp");
 

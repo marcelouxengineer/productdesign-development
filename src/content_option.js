@@ -183,6 +183,19 @@ link: {
 }
   },
 
+       {
+     id: "moto-hello",
+    img: "/productdesign-development/img/helloui.png",
+    description: {
+      en: "Hello UI — I created, managed, and documented Motorola's design system.",
+      pt: "Hello UI — Criei, gerenciei e documentei o design system da Motorola.",
+    },
+    link: {
+      en: "/productdesign-development/case-studies/Hello UI Design System - Case study (ENG).pdf",
+      pt: "/productdesign-development/case-studies/Hello UI Design System - Case study (PT).pdf",
+    },
+  },
+
       {
         id: "networkme",
     img: "https://cdn-images-1.medium.com/max/1600/1*JHbrt9U3FrhqwEosXy706w.png",
@@ -192,20 +205,22 @@ link: {
     },
     link: {
       en: "/productdesign-development/case-studies/Networkme Conecta - Case study (ENG).pdf",
-      pt: "/productdesign-development/case-studies/Networkme Conecta - Case study (ENG).pdf",
+      pt: "/productdesign-development/case-studies/Networkme Conecta - Case study (PT).pdf",
     },
   },
 
-      {
-     id: "moto-hello",
-    img: "/productdesign-development/img/helloui.png",
+ 
+
+   {
+         id: "moto-hello",
+    img: "https://p1-ofp.static.pub//fes/cms/2023/09/28/rndhahba7lfyygv8djkjnuqcqzpq25162673.png",
     description: {
-      en: "Hello UI — I created, managed, and documented Motorola's design system.",
-      pt: "Hello UI — Criei, gerenciei e documentei o design system da Motorola.",
+      en: "Motorola ThinkPhone — Red Key: a UX case study of a hardware-driven feature.",
+      pt: "Motorola ThinkPhone — Red Key: UX para funcionalidade acionada por hardware.",
     },
     link: {
-      en: "https://www.figma.com/proto/nusY8iPR6e5nv04RCN2Y6A/Hello-Design-System---Guidelines?node-id=68-25610&viewport=410%2C149%2C0.16&t=dDbF6hZwLnQxeMor-1&scaling=contain&content-scaling=fixed&starting-point-node-id=68%3A25610&page-id=68%3A25609",
-      pt: "https://www.figma.com/proto/nusY8iPR6e5nv04RCN2Y6A/Hello-Design-System---Guidelines?node-id=68-25610&viewport=410%2C149%2C0.16&t=dDbF6hZwLnQxeMor-1&scaling=contain&content-scaling=fixed&starting-point-node-id=68%3A25610&page-id=68%3A25609",
+      en: "/productdesign-development/case-studies/Redkey Thinkphone - Case study (ENG).pdf",
+      pt: "/productdesign-development/case-studies/Redkey Thinkphone - Case study (PT).pdf",
     },
   },
 
@@ -233,37 +248,6 @@ link: {
     },
   },
 
-
-
-
-
-  {
-    img: "https://media.licdn.com/dms/image/v2/D4D05AQEupd1IGyeliA/videocover-high/videocover-high/0/1726164023605?e=2147483647&v=beta&t=pBcxTfg1wGhl2Kv0LInRu_-zAGSqGlmYqmK8WoR1IFo",
-    description: {
-      en: "Farmácias App — Transforming the purchase journey into conversion.",
-      pt: "Farmácias App — Transformando a jornada de compra em conversão.",
-    },
-    link: {
-      en: "https://medium.com/@marceloaf.ux/protected-work-available-upon-request-a4f83f242d06",
-      pt: "https://medium.com/@marceloaf.ux/protected-work-available-upon-request-a4f83f242d06",
-    },
-  },
-
-
-
- 
-
-  {
-    img: "https://p1-ofp.static.pub//fes/cms/2023/09/28/rndhahba7lfyygv8djkjnuqcqzpq25162673.png",
-    description: {
-      en: "Motorola ThinkPhone — Red Key: a UX case study of a hardware-driven feature.",
-      pt: "Motorola ThinkPhone — Red Key: UX para funcionalidade acionada por hardware.",
-    },
-    link: {
-      en: "https://medium.com/@marceloaf.ux/protected-work-available-upon-request-a4f83f242d06",
-      pt: "https://medium.com/@marceloaf.ux/protected-work-available-upon-request-a4f83f242d06",
-    },
-  },
 
   
 ];

@@ -26,7 +26,7 @@ export const translations = {
     portfolio: {
       title: "Case Studies",
       viewProject: "Explore case study",
-      curriculum: "Curriculum",
+      curriculum: "Resume",
     },
 
     about: {

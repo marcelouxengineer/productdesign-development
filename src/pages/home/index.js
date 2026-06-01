@@ -105,7 +105,7 @@ export const Home = () => {
 
                     <div className="impact_item">
                       {language === "en"
-                        ? "+41% task completion · first session"
+                        ? "+41% task completion in first session"
                         : "+41% de tarefas completas na 1ª sessão"}
                     </div>
 
@@ -129,8 +129,8 @@ export const Home = () => {
 
                     <div className="impact_item">
                       {language === "en"
-                        ? "Front-end dev · Vibe coding · AI-native"
-                        : "Front-end dev/Vibe coding/IA-native"}
+                        ? "Front-end · Vibe coding · AI-native"
+                        : "Front-end · Vibe coding · IA-native"}
                     </div>
 
                   </div>

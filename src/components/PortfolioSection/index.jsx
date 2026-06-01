@@ -66,7 +66,7 @@ export const PortfolioSection = () => {
             style={{
               margin: 0,
               position: "relative",
-                  left: "-1px",
+                  left: "-8px",
               top: "0px",
               cursor: "pointer",
             }}
@@ -102,7 +102,6 @@ export const PortfolioSection = () => {
             data.id === "moto-secure" ||
             data.id === "moto-hello" ||
             data.id === "networkme" ||
-            data.id === "redkey" ||
             descriptionValue.includes("nintendo") ||
             descriptionValue.includes("icamp");
 

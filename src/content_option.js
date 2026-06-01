@@ -170,6 +170,20 @@ const services = [
 
 const dataportfolio = [
 
+   {
+        id: "networkme",
+    img: "https://cdn-images-1.medium.com/max/1600/1*JHbrt9U3FrhqwEosXy706w.png",
+    description: {
+      en: "Networkme Conecta— Reframing a product from visual refresh to activation-first experience.",
+      pt: "Networkme Conecta — Reposicionando o produto de refresh visual para experiência orientada à ativação",
+    },
+    link: {
+      en: "/productdesign-development/case-studies/Networkme Conecta - Case study (ENG).pdf",
+      pt: "/productdesign-development/case-studies/Networkme Conecta - Case study (PT).pdf",
+    },
+  },
+
+
  {
     id: "moto-secure",
     img: "/productdesign-development/img/motosecure.png",
@@ -196,18 +210,6 @@ link: {
     },
   },
 
-      {
-        id: "networkme",
-    img: "https://cdn-images-1.medium.com/max/1600/1*JHbrt9U3FrhqwEosXy706w.png",
-    description: {
-      en: "Networkme Conecta— Reframing a product from visual refresh to activation-first experience.",
-      pt: "Networkme Conecta — Reposicionando o produto de refresh visual para experiência orientada à ativação",
-    },
-    link: {
-      en: "/productdesign-development/case-studies/Networkme Conecta - Case study (ENG).pdf",
-      pt: "/productdesign-development/case-studies/Networkme Conecta - Case study (PT).pdf",
-    },
-  },
 
  
 
@@ -224,17 +226,7 @@ link: {
     },
   },
 
-  {
-    img: "https://cdn-images-1.medium.com/v2/resize:fit:2600/1*qbDle128fS2VI5EeXRrBrg.avif",
-    description: {
-      en: "iCamp — When the problem isn't discovery, it's trust.",
-      pt: " iCamp — Quando o problema não é encontrar, é confiar.",
-    },
-    link: {
-      en: "/productdesign-development/case-studies/Icamp - Case study (ENG).pdf",
-      pt: "/productdesign-development/case-studies/Icamp - Case study (PT).pdf",
-    },
-  },
+  
 
   {
     img: "https://cdn-images-1.medium.com/max/1000/1*_PdzaYVhnHb-SOPmZy0O5w.png",
@@ -245,6 +237,18 @@ link: {
     link: {
       en: "/productdesign-development/case-studies/Nintendo Switch App - Case study (ENG).pdf",
       pt: "/productdesign-development/case-studies/Nintendo Switch App - Case study (PT).pdf",
+    },
+  },
+
+  {
+    img: "https://cdn-images-1.medium.com/v2/resize:fit:2600/1*qbDle128fS2VI5EeXRrBrg.avif",
+    description: {
+      en: "iCamp — When the problem isn't discovery, it's trust.",
+      pt: " iCamp — Quando o problema não é encontrar, é confiar.",
+    },
+    link: {
+      en: "/productdesign-development/case-studies/Icamp - Case study (ENG).pdf",
+      pt: "/productdesign-development/case-studies/Icamp - Case study (PT).pdf",
     },
   },
 

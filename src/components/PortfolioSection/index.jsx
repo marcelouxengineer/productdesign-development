@@ -99,8 +99,8 @@ export const PortfolioSection = () => {
             data.description?.en?.toLowerCase() || "";
 
           const isPublic =
-            data.id === "moto-secure" ||
-            data.id === "moto-hello" ||
+            data.id === "oto-secure" ||
+            data.id === "oto-hello" ||
             data.id === "networkme" ||
             descriptionValue.includes("nintendo") ||
             descriptionValue.includes("icamp");

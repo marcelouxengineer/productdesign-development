@@ -15,7 +15,7 @@ export const PortfolioSection = () => {
     );
 
     // 👇 cancel pressed
-    if (enteredPassword === null) {
+    if (entered === null) {
       return;
     }
 

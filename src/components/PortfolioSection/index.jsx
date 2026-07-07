@@ -14,16 +14,13 @@ export const PortfolioSection = () => {
         : "Digite a senha para acessar este estudo de caso"
     );
 
-    // 👇 cancel pressed
-    if (entered === null) {
+    if (enteredPassword === null) {
       return;
     }
 
-    // 👇 correct password
     if (enteredPassword.trim() === "Marcelo_LP") {
       window.open(link, "_blank");
     } else {
-      // 👇 wrong password
       alert(
         language === "en"
           ? "Incorrect password"
@@ -34,9 +31,7 @@ export const PortfolioSection = () => {
 
   return (
     <section className="portfolio-section">
-
       <div className="portfolio-title-wrapper">
-
         <div
           className="portfolio-header"
           style={{
@@ -49,13 +44,11 @@ export const PortfolioSection = () => {
             flexWrap: "wrap",
           }}
         >
-
           <h2
             className="portfolio-title"
             style={{
               margin: 0,
-                                left: "-1px",
-
+              left: "-1px",
             }}
           >
             {t.title}
@@ -66,7 +59,7 @@ export const PortfolioSection = () => {
             style={{
               margin: 0,
               position: "relative",
-                  left: "-8px",
+              left: "-8px",
               top: "0px",
               cursor: "pointer",
             }}
@@ -81,33 +74,26 @@ export const PortfolioSection = () => {
           >
             {t.curriculum}
           </h2>
-
         </div>
-
       </div>
 
-  <div
-  className="po_items_ho"
-  style={{
-    marginTop: "-40px",
-  }}
->
-
+      <div
+        className="po_items_ho"
+        style={{
+          marginTop: "-40px",
+        }}
+      >
         {dataportfolio.map((data, i) => {
+          const protectedProjects = [
+            "moto-secure",
+            "moto-hello",
+            "redkey",
+          ];
 
-          const descriptionValue =
-            data.description?.en?.toLowerCase() || "";
-
-          const isPublic =
-            data.id === "oto-secure" ||
-            data.id === "oto-hello" ||
-            data.id === "networkme" ||
-            descriptionValue.includes("nintendo") ||
-            descriptionValue.includes("icamp");
+          const isPublic = !protectedProjects.includes(data.id);
 
           return (
             <div key={i} className="po_item">
-
               <img
                 className="portfolio-img"
                 src={data.img}
@@ -115,7 +101,6 @@ export const PortfolioSection = () => {
               />
 
               <div className="content">
-
                 <p>{data.description[language]}</p>
 
                 <a
@@ -140,15 +125,11 @@ export const PortfolioSection = () => {
                       : "Estudo de caso protegido por confidencialidade. Contate marceloaf.ux@gmail.com para solicitar acesso."}
                   </span>
                 )}
-
               </div>
-
             </div>
           );
         })}
-
       </div>
-
     </section>
   );
 };

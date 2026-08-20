@@ -214,7 +214,7 @@ link: {
  
 
    {
-         id: "moto-hello",
+         id: "redkey",
     img: "https://p1-ofp.static.pub//fes/cms/2023/09/28/rndhahba7lfyygv8djkjnuqcqzpq25162673.png",
     description: {
       en: "Motorola ThinkPhone — Red Key: a UX case study of a hardware-driven feature.",

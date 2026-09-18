@@ -37,7 +37,7 @@ const worktimeline = [
     },
     date: {
       en: "09/2025 - Present",
-      pt: "09/2025 - Atualmente",
+      pt: "09/2025 - Atual",
     },
   },
   {

@@ -30,25 +30,14 @@ const dataabout = {
 
 const worktimeline = [
   {
-    jobtitle: "Grupo SC",
+    jobtitle: "NTT DATA / Vivo Telefonica",
     where: {
       en: "Senior Product Designer",
       pt: "Senior Product Designer",
     },
     date: {
-      en: "10/2025 - 05/2026",
-      pt: "10/2025 - 05/2026",
-    },
-  },
-  {
-    jobtitle: "Networkme",
-    where: {
-      en: "Global Senior Product Designer",
-      pt: "Global Senior Product Designer",
-    },
-    date: {
-      en: "07/2025 - 10/2025",
-      pt: "07/2025 - 10/2025",
+      en: "09/2025 - Present",
+      pt: "09/2025 - Atualmente",
     },
   },
   {
@@ -60,6 +49,17 @@ const worktimeline = [
     date: {
       en: "06/2022 - 07/2025",
       pt: "06/2022 - 07/2025",
+    },
+  },
+  {
+    jobtitle: "Bluma Natura",
+    where: {
+      en: "Product Designer",
+      pt: "Product Designer",
+    },
+    date: {
+      en: "11/2021 - 06/2022",
+      pt: "11/2021 - 06/2022",
     },
   },
 ];
